@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import axios from 'axios';
 import { AppContext } from '../App';
-import Loading from './Loading';
 
 const Home = () => {
   const { post, setPost } = useContext(AppContext);
